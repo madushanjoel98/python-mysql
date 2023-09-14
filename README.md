@@ -5,7 +5,8 @@
 Connecting and executing query in Mysql DB using python. all code are clean and clear with OOP concept  
 <h2>Conncting to the DB</h2>
 goto file <a class="btn btn-success" href="/db/DBConnection.py">DB/DBConnection.py</a>and config the connection
-<code>
+
+```python
       def __init__(self):
         self.mydb = mysql.connect(
             host="host", # Replace with the host of your database host
@@ -13,4 +14,4 @@ goto file <a class="btn btn-success" href="/db/DBConnection.py">DB/DBConnection.
             password="password", # Replace with the password of your database password
             database="database" # Replace with the name of your database
         )
-</code>
+```
