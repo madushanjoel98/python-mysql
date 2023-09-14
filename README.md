@@ -3,3 +3,12 @@
 Connecting and executing query in Mysql DB using python. all code are clean and clear with OOP concept  
 <h2>Conncting to the DB</h2>
 goto file <a href="/db/DBConnection.py">DB/DBConnection.py</a>and config the connection
+<code>
+      def __init__(self):
+        self.mydb = mysql.connect(
+            host="host", # Replace with the host of your database host
+            user="username",# Replace with the username of your database username
+            password="password", # Replace with the password of your database password
+            database="database" # Replace with the name of your database
+        )
+</code>
